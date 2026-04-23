@@ -464,6 +464,18 @@
     margin-bottom: var(--spacing-12);
 }
 
+.section-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-4);
+    flex-wrap: wrap;
+    margin-top: var(--spacing-16);
+}
+
+.section-actions .btn {
+    min-width: 160px;
+}
+
 .section-title {
     font-family: var(--font-family-display);
     font-size: var(--font-size-3xl);
