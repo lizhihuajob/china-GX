@@ -209,7 +209,7 @@ class DataManager {
                     category: '经典作品',
                     dimensions: '180cm × 120cm',
                     techniques: ['施针', '辅助针', '续针绣'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20Guangzhou%20embroidery%20artwork%20-%20hundreds%20of%20birds%20paying%20homage%20to%20phoenix%2C%20traditional%20Chinese%20red%20and%20gold%20colors%2C%20intricate%20needlework%20details%2C%20phoenix%20as%20centerpiece%2C%20peacocks%20and%20other%20birds%20surrounding%2C%20silk%20embroidery%20texture%2C%20museum%20quality%20artwork&image_size=landscape_16_9',
                     featured: true
                 },
                 {
@@ -221,7 +221,7 @@ class DataManager {
                     category: '现代作品',
                     dimensions: '80cm × 80cm',
                     techniques: ['施针', '直针绣'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20Guangzhou%20embroidery%20-%20lychee%20fruits%20on%20branch%2C%20vibrant%20red%20lychees%20with%20green%20leaves%2C%20parrot%20bird%20perched%2C%20traditional%20silk%20embroidery%20texture%2C%20Lingnan%20Chinese%20art%20style%2C%20rich%20colors%2C%20intricate%20needlework%20details&image_size=square_hd',
                     featured: true
                 },
                 {
@@ -233,7 +233,7 @@ class DataManager {
                     category: '现代作品',
                     dimensions: '120cm × 90cm',
                     techniques: ['施针', '辅助针', '捆针绣'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20Guangzhou%20embroidery%20-%20spring%20scenery%20of%20Lingnan%20region%2C%20blooming%20kapok%20flowers%20(red%20cotton%20tree)%2C%20traditional%20Chinese%20garden%2C%20vibrant%20green%20foliage%2C%20silk%20embroidery%20texture%2C%20rich%20color%20layers%2C%20intricate%20needlework&image_size=landscape_4_3',
                     featured: false
                 },
                 {
@@ -245,7 +245,7 @@ class DataManager {
                     category: '传世珍品',
                     dimensions: '200cm × 150cm',
                     techniques: ['织锦绣', '施针'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Ancient%20Chinese%20Qing%20Dynasty%20Guangzhou%20embroidery%20-%20Nine%20Dragons%20silk%20tapestry%2C%20gold%20and%20red%20imperial%20colors%2C%20majestic%20dragons%20among%20clouds%2C%20waves%20and%20flames%2C%20intricate%20needlework%20texture%2C%20museum%20treasure%2C%20forbidden%20city%20collection%20style&image_size=landscape_16_9',
                     featured: true
                 },
                 {
@@ -257,7 +257,7 @@ class DataManager {
                     category: '现代作品',
                     dimensions: '150cm × 100cm',
                     techniques: ['施针', '辅助针', '绕绣'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20Guangzhou%20embroidery%20-%20peacock%20displaying%20its%20tail%2C%20magnificent%20peacock%20with%20full%20tail%20feathers%20spread%2C%20iridescent%20blue%20and%20green%20colors%2C%20golden%20eye%20patterns%20on%20feathers%2C%20traditional%20silk%20embroidery%20texture%2C%20intricate%20needlework%2C%20Chinese%20art&image_size=landscape_16_9',
                     featured: false
                 },
                 {
@@ -269,7 +269,7 @@ class DataManager {
                     category: '传统题材',
                     dimensions: '100cm × 80cm',
                     techniques: ['施针', '续针绣'],
-                    image: '',
+                    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20Guangzhou%20embroidery%20-%20pine%20tree%20and%20crane%20symbolizing%20longevity%2C%20ancient%20twisted%20pine%20with%20green%20needles%2C%20white%20red-crowned%20crane%20standing%20elegantly%2C%20misty%20mountain%20background%2C%20traditional%20Chinese%20ink%20painting%20style%20silk%20embroidery%2C%20auspicious%20symbolism%2C%20intricate%20needlework&image_size=landscape_4_3',
                     featured: false
                 }
             ],

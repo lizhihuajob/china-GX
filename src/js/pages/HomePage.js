@@ -73,7 +73,7 @@ class HomePage extends BasePage {
                             `).join('')}
                         </div>
                         
-                        <div class="text-center mt-10">
+                        <div class="section-actions">
                             ${this.createButton('查看完整历史', { href: '#/history', variant: 'outline' })}
                         </div>
                     </div>
@@ -97,7 +97,7 @@ class HomePage extends BasePage {
                             </div>
                         </div>
                         
-                        <div class="text-center mt-10">
+                        <div class="section-actions">
                             ${this.createButton('探索更多针法', { href: '#/techniques', variant: 'outline' })}
                         </div>
                     </div>
@@ -111,7 +111,7 @@ class HomePage extends BasePage {
                             ${featuredCards.join('')}
                         </div>
                         
-                        <div class="text-center mt-10">
+                        <div class="section-actions">
                             ${this.createButton('浏览全部作品', { href: '#/works', variant: 'outline' })}
                         </div>
                     </div>
@@ -125,7 +125,7 @@ class HomePage extends BasePage {
                             ${innovationCards.join('')}
                         </div>
                         
-                        <div class="text-center mt-10">
+                        <div class="section-actions">
                             ${this.createButton('了解更多创新', { href: '#/innovation', variant: 'outline' })}
                         </div>
                     </div>
@@ -210,7 +210,7 @@ class HomePage extends BasePage {
                             </div>
                         </div>
                         
-                        <div class="text-center mt-10">
+                        <div class="section-actions">
                             ${this.createButton('查看完整分析', { href: '#/analysis', variant: 'outline' })}
                         </div>
                     </div>
