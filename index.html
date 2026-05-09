@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国广绣 - 国家级非物质文化遗产</title>
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/layout.css">
+    <link rel="stylesheet" href="src/css/components.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrapper">
+        <header class="site-header" id="site-header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="#/" class="logo">
+                        <span class="logo-text">广绣</span>
+                        <span class="logo-subtitle">Guangdong Embroidery</span>
+                    </a>
+                    
+                    <nav class="main-nav" id="main-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#/" class="nav-link" data-route="/">首页</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#/history" class="nav-link" data-route="/history">历史传承</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#/techniques" class="nav-link" data-route="/techniques">核心技艺</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#/works" class="nav-link" data-route="/works">代表性作品</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#/innovation" class="nav-link" data-route="/innovation">创新应用</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#/analysis" class="nav-link" data-route="/analysis">技艺分析</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <button class="hamburger-btn" id="hamburger-btn" aria-label="打开导航菜单">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content" id="main-content">
+            <div class="page-container" id="page-container">
+                <div class="page-loader" id="page-loader">
+                    <div class="loader-spinner"></div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3 class="footer-title">关于广绣</h3>
+                        <p class="footer-text">广绣是国家级非物质文化遗产，是中国四大名绣之一，以其精湛的技艺和独特的艺术风格闻名于世。</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">快速导航</h3>
+                        <ul class="footer-nav">
+                            <li><a href="#/" class="footer-link">首页</a></li>
+                            <li><a href="#/history" class="footer-link">历史传承</a></li>
+                            <li><a href="#/techniques" class="footer-link">核心技艺</a></li>
+                            <li><a href="#/works" class="footer-link">代表性作品</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">文化传承</h3>
+                        <p class="footer-text">保护和传承非物质文化遗产，是我们共同的责任。</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; 2026 中国广绣专题网站 | 国家级非物质文化遗产</p>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal-container" id="modal-container">
+                <button class="modal-close" id="modal-close" aria-label="关闭">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </button>
+                <div class="modal-content" id="modal-content"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
